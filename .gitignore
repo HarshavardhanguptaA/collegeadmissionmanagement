@@ -1,0 +1,16 @@
+# Secrets and environment-specific configuration
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+# Build artifacts
+studentms/target/
+student-ui/node_modules/
+student-ui/dist/
+
+# Editors
+.idea/
+.vscode/
+*.iml
+*.log
